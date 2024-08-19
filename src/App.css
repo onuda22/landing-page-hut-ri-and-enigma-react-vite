@@ -43,7 +43,7 @@
 
 /* ================================================================================= */
 /*===== GOGGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"); */
 /*===== VARIABLES SCSS =====*/
 /*===== VARIABLES CSS =====*/
 /*=== Colores ===*/
@@ -122,23 +122,23 @@ img {
 }
 
 /*===== LAYOUT =====*/
-.bd-grid {
+/* .bd-grid {
   max-width: 1200px;
   margin-left: 1rem;
   margin-right: 1rem;
-}
+} */
 
-.l-header {
+/* .l-header {
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
   background-color: transparent;
   z-index: var(--z-modal);
-}
+} */
 
 /*===== NAVBAR =====*/
-.nav {
+/* .nav {
   height: 4rem;
   display: -webakit-box;
   display: -ms-flexbox;
@@ -150,9 +150,9 @@ img {
   -ms-flex-align: center;
   align-items: center;
   font-weight: bold;
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .nav__menu {
     position: fixed;
     left: 0%;
@@ -166,7 +166,7 @@ img {
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-}
+} */
 
 .nav__logo {
   color: var(--white-color);
@@ -180,11 +180,11 @@ img {
   color: var(--white-color);
 }
 
-.nav__toggle {
+/* .nav__toggle {
   font-size: 1rem;
   color: var(--white-color);
   cursor: pointer;
-}
+} */
 
 /*=== Show menu ===*/
 .show {

@@ -1,30 +1,29 @@
-import "../App.css";
 import React from "react";
 
 const Header = () => {
   return (
-    <header className="l-header">
-      <nav className="nav bd-grid">
-        <a href="#" className="nav__logo">
+    <header className="w-full absolute top-0 left-0 bg-transparent z-[1000]">
+      <nav className="h-16 flex justify-between items-center font-bold max-w-1200 ml-4 mr-4">
+        <a href="#" className="text-white">
           HUT RI 79
         </a>
-        <div className="nav__toggle" id="nav-toggle">
-          <i className="bx bx-menu-alt-right"></i>
-        </div>
-        <div className="nav__menu" id="nav-menu">
-          <ul className="nav__list">
-            <li className="nav__item">
-              <a href="#" className="nav__link">
+        <div
+          className="fixed left-0 top-[-100%] bg-black bg-opacity-90 w-full h-2/5 p-8 text-center z-[100] transition duration-300 md:hidden"
+          id="nav-menu"
+        >
+          <ul className="flex">
+            <li className="mb-8">
+              <a href="#" className="text-white">
                 BERANDA
               </a>
             </li>
-            <li className="nav__item">
-              <a href="#" className="nav__link">
+            <li className="mb-8">
+              <a href="#" className="text-white">
                 LATAR BELAKANG
               </a>
             </li>
-            <li className="nav__item">
-              <a href="#" className="nav__link">
+            <li className="mb-8">
+              <a href="#" className="text-white">
                 FILOSOFI LOGO
               </a>
             </li>

@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
-import "../App.css"; // Make sure to create this CSS file and import it here
+import background1 from "../assets/img/6201484166546178451.jpg";
+import grafikLayer from "../assets/img/grafik-layer.png";
+import logo from "../assets/img/logo79-putih.png";
+import { rgba } from "@tamagui/core";
 
 const Home = () => {
   useEffect(() => {
@@ -9,29 +12,36 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="home">
+    <div className="h-screen overflow-hidden relative">
       <div
-        className="parallax home__parallax home__parallax-img1"
+        className="w-full h-full absolute bg-no-repeat bg-cover bg-center z-[1]"
+        style={{ backgroundImage: `url(${background1})` }}
         data-rellax-speed="-9"
       ></div>
       <div
-        className="parallax home__parallax home__parallax-img2"
+        className="w-full h-full absolute bg-no-repeat bg-cover bg-center"
+        style={{ backgroundColor: rgba(0, 0, 0, 0.4) }}
         data-rellax-speed="-7"
       ></div>
       <div
-        className="parallax home__parallax home__parallax-img3"
+        className="w-full h-full absolute bg-no-repeat bg-cover bg-center z-100"
+        style={{ backgroundImage: `url(${grafikLayer})` }}
         data-rellax-speed="-6"
       ></div>
       <div
-        className="parallax home__parallax home__parallax-img4"
+        className="w-full h-full absolute bg-no-repeat bg-cover bg-center z-100"
+        style={{ backgroundImage: `url(${logo})` }}
         data-rellax-speed="-3"
       ></div>
 
-      <span className="parallax home__subtitle" data-rellax-speed="-5"></span>
+      <span
+        className="absolute w-full flex justify-center text-white mt-[32%] text-8xl z-100"
+        data-rellax-speed="-5"
+      ></span>
 
-      <div className="home__scroll">
+      <div className="absolute w-full flex justify-center text-2xl mb-10 z-1000">
         <a href="#section">
-          <i className="bx bx-mouse"></i>
+          <i className="border-x text-white "></i>
         </a>
       </div>
     </div>
