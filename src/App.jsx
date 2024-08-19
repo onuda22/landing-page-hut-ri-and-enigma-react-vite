@@ -1,12 +1,13 @@
 import "./App.css";
+import Hero from "./component/Hero";
 
 function App() {
   return (
-    <>
-      <h1 className="text-xl font-bold text-red-500 ">Hello Tailwind</h1>
-      {/* jajajajajjaj */}
-    </>
+    <div className="bg-gradient-to-tr from-[#ff9a9e] via-[#fad0c4] to-[#fad0c4] bg-opacity-10 rounded-lg">
+      <Hero />
+    </div>
   );
+  // <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 }
 
 export default App;
