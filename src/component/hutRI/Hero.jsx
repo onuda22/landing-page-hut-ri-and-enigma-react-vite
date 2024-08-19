@@ -7,6 +7,7 @@ import Title from "./Title";
 export default function Hero() {
   return (
     <div className="bg-hero bg-cover ">
+      <Header />
       <Title />
     </div>
   );
