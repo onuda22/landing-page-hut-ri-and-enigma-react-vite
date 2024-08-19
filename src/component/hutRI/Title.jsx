@@ -4,8 +4,8 @@ import logoPutih from "../../assets/logo79-putih.png";
 export default function Title() {
   return (
     <div className="flex flex-col rounded-lg w-full items-center justify-center">
-      <img src={logoPutih} className="w-[800px] self-center" />
-      <img src={grafikLayer} className="w-[1026px] self-end" />
+      <img src={logoPutih} className="w-[800px]" />
+      <img src={grafikLayer} className="" />
     </div>
   );
 }

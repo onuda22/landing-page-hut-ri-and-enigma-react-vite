@@ -25,6 +25,10 @@ export default {
         100: 100,
         1000: 1000,
       },
+        backgroundImage: {
+          'hero-pattern': "url('/img/hero-pattern.svg')",
+          'hero': "url('./src/assets/6201484166546178451.jpg')",
+        }
     },
   },
   plugins: [require("flowbite/plugin")],
