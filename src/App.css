@@ -7,6 +7,21 @@
   font-family: 'inter';
 }
 
+.transition-fade {
+  animation: fade-out 0.5s ease 3s both;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    display: none }
+}
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
