@@ -3,7 +3,7 @@ import Hero from "./component/hutRI/Hero";
 
 function App() {
   return (
-    <div className="bg-gradient-to-tr from-[#ff9a9e] via-[#fad0c4] to-[#fad0c4] bg-opacity-10 rounded-lg">
+    <div>
       <Hero />
     </div>
   );

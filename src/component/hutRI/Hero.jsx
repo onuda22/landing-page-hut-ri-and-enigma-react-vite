@@ -1,6 +1,20 @@
 import React from "react";
 import Header from "./Header";
+import backgroundHero from "../../assets/6201484166546178451.jpg";
+import Title from "./Title";
 
 export default function Hero() {
-  return <Header />;
+  return (
+    <div
+      className="bg-opacity-10 rounded-lg bg-cover bg-no-repeat bg-center h-screen"
+      style={{
+        backgroundImage: `url(${backgroundHero})`,
+      }}
+    >
+      <div className="bg-black bg-opacity-10">
+        <Header />
+        <Title />
+      </div>
+    </div>
+  );
 }
