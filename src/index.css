@@ -3,11 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/*===== GOGGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-/*===== VARIABLES SCSS =====*/
-/*===== VARIABLES CSS =====*/
-/*=== Colores ===*/
 @font-face {
   font-family: "Lato";
   src: url("font/Lato-Black.ttf");
@@ -306,10 +301,11 @@ img {
 
 .gallery {
   margin: 0 auto;
-  background-image: url("/assets/img/gallery.png");
+  background-image: url("./assets/gallery.png");
   background-size: cover;
   z-index: var(--z-modal);
   padding: 0rem;
+  height: 100vh;
 }
 
 .gallery h1 {
@@ -402,7 +398,6 @@ img {
 }
 
 .add-testimonial-form {
-  
   margin-top: 30px;
   background-size: contain;
   align-items: center;
@@ -410,7 +405,6 @@ img {
   display: flex;
   padding: 20px;
   border-radius: 8px;
-
 }
 
 .add-testimonial-form-div {
@@ -427,7 +421,7 @@ img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.add-testimonial-form .add-testimonial-form-div  h3 {
+.add-testimonial-form .add-testimonial-form-div h3 {
   font-size: 20px;
   padding-bottom: 4rem;
 }
@@ -449,7 +443,6 @@ img {
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
-
 }
 
 .add-testimonial-form .add-testimonial-form-div textarea {

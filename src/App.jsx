@@ -1,11 +1,12 @@
 import "./App.css";
-import Hero from "./component/Hero"; 
-import Pages from "./component/hutRI/Pages"; 
+import Hero from "./pages/Hero"; 
+import Pages from "./pages/Pages"; 
 import './custom.css'
 
 function App() {
   return (
     <div>
+      <Hero />
       <Pages />
     </div>
   );
