@@ -1,11 +1,19 @@
 import "./App.css";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Section from "./components/Section";
 
 function App() {
   return (
-    <>
-      <h1 className="text-xl font-bold text-red-500 ">Hello Tailwind</h1>
-      {/* jajajajajjaj */}
-    </>
+    <div className="container">
+      {/* <div> */}
+      <Header />
+      <main>
+        <Home />
+        <Section />
+      </main>
+      {/* </div> */}
+    </div>
   );
 }
 
