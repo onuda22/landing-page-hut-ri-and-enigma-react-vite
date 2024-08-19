@@ -8,10 +8,10 @@ export default function Main() {
     <div className="w-full ">
       <div className="flex justify-center gap-7 items-center">
         <div className="w-[500px]">
-          <h1 className="text-2xl text-blueCustom font-bold">
+          <h1 className="text-2xl sm:text-xl text-blueCustom font-bold">
             Happy Anniversary
           </h1>
-          <h2 className="text-7xl text-orangeCustom mb-10">Enigmacamp</h2>
+          <h2 className="text-5xl sm:text-12 text-orangeCustom mb-10">Enigmacamp</h2>
           <p className="text-blueCustom">Selamat Ulang Tahun, Enigma Camp kami bangga 
             atas pencapaian dan dedikasi luar biasa Anda.
             Semoga tahun ini membawa lebih banyak kesuksesan dan peluang baru. Selamat merayakan dan
@@ -22,11 +22,7 @@ export default function Main() {
           <img src={kue} className="w-[500px]"></img>
         </div>
       </div>
-      <div className="flex flex-wrap justify-between ">
-      <img src={kiri} className="w-[500px] self-center  sm:w-[150px]"></img>
-      <img src={orange} className="w-[300px]  sm:w-[150px]"></img>
-      </div>
-      <div className="bg-"></div>
+
     </div>
   );
 }
