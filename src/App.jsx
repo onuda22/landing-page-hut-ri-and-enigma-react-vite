@@ -3,7 +3,7 @@ import Hero from "./component/hutRI/Hero";
 
 function App() {
   return (
-    <div>
+    <div className="">
       <Hero />
     </div>
   );
