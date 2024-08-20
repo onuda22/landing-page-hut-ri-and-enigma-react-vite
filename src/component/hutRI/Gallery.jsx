@@ -1,4 +1,5 @@
 import "../../index.css";
+import "flowbite";
 export default function Gallery() {
   return (
     <>
@@ -9,7 +10,10 @@ export default function Gallery() {
       >
         <h2 className="text-3xl font-bold pt-10 pb-10">Gallery</h2>
         <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+          <div
+            className="hidden duration-700 ease-in-out imagebanner "
+            data-carousel-item
+          >
             <img
               src="/img/lomba1.JPG"
               className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
@@ -18,7 +22,7 @@ export default function Gallery() {
           </div>
 
           <div
-            className="hidden duration-700 ease-in-out"
+            className="hidden duration-700 ease-in-out imagebanner"
             data-carousel-item="active"
           >
             <img
@@ -28,7 +32,10 @@ export default function Gallery() {
             />
           </div>
 
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+          <div
+            className="hidden duration-700 ease-in-out imagebanner"
+            data-carousel-item
+          >
             <img
               src="/img/lomba3.JPG"
               className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
@@ -36,7 +43,10 @@ export default function Gallery() {
             />
           </div>
 
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+          <div
+            className="hidden duration-700 ease-in-out imagebanner"
+            data-carousel-item
+          >
             <img
               src="/img/lomba4.JPG"
               className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
@@ -44,7 +54,10 @@ export default function Gallery() {
             />
           </div>
 
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+          <div
+            className="hidden duration-700 ease-in-out imagebanner"
+            data-carousel-item
+          >
             <img
               src="/img/lomba5.JPG"
               className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
