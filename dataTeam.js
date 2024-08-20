@@ -1,7 +1,7 @@
 const dataTeam = [
   {
     nama: "Tommy Haryanto",
-    foto: "public/img/ztommy.png",
+    foto: "/img/ztommy.png",
     haparan:
       "Selamat ulang tahun ke-5, Enigma! Semoga semakin sukses dan selalu menginspirasi.",
     link: "https://linkedin.com/in/tommy-haryanto-5279b6181",
@@ -9,7 +9,7 @@ const dataTeam = [
   },
   {
     nama: "Muhammad Amirul",
-    foto: "public/img/zmirul.png",
+    foto: "/img/zmirul.png",
     haparan:
       "Lima tahun sudah Enigma menemani kita. Terima kasih atas semua inovasi dan semangat yang telah diberikan. Semoga di usia yang ke-5 ini, Enigma semakin berkembang dan menjadi pemimpin di bidangnya.",
     link: "https://linkedin.com/in/mirula24",
@@ -17,7 +17,7 @@ const dataTeam = [
   },
   {
     nama: "Randy",
-    foto: "public/img/zrandy.png",
+    foto: "/img/zrandy.png",
     haparan:
       "Masih ingat saat pertama kali bertemu Enigma? Waktu terasa begitu cepat berlalu. Selamat ulang tahun ke-5! Semoga setiap tahunnya semakin membanggakan.",
     link: "https://linkedin.com/in/randytjioe",
@@ -25,7 +25,7 @@ const dataTeam = [
   },
   {
     nama: "Irsyad Fauzi A",
-    foto: "public/img/zirsyad.png",
+    foto: "/img/zirsyad.png",
     haparan:
       "Lima tahun sudah Enigma menemani kita. Terima kasih atas semua inovasi dan semangat yang telah diberikan. Semoga di usia yang ke-5 ini, Enigma semakin berkembang dan menjadi pemimpin di bidangnya.",
     link: "https://linkedin.com/in/irsyad-hash",
@@ -33,7 +33,7 @@ const dataTeam = [
   },
   {
     nama: "Oki Nurul A",
-    foto: "public/img/zoki.png",
+    foto: "/img/zoki.png",
     haparan:
       "Enigma sudah berusia setengah dekade! Selamat ulang tahun! Semoga di usia yang ke-5 ini, Enigma tidak hanya semakin dewasa, tapi juga semakin kocak.",
     link: "https://linkedin.com/in/sadsad",

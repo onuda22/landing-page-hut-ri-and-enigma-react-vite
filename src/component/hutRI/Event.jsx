@@ -17,14 +17,10 @@ export default function Event() {
               </p>
             </div>
 
-            <img
-              src="../../../public/img/lomba1.JPG"
-              alt=""
-              className="section__img"
-            />
+            <img src="/img/lomba1.JPG" alt="" className="section__img" />
           </div>
           <div className="section">
-            <img src="../../../public/img/lomba6.JPG" alt="" className="section__img" />
+            <img src="/img/lomba6.JPG" alt="" className="section__img" />
             <div className="section__data">
               <h2 className="section__title_right">Kerupuk Balance</h2>
               <p className="section__text_left text-left">
@@ -55,10 +51,10 @@ export default function Event() {
               </p>
             </div>
 
-            <img src="../../../public/img/lomba2.JPG" alt="" className="section__img" />
+            <img src="/img/lomba2.JPG" alt="" className="section__img" />
           </div>
           <div className="section">
-            <img src="../../../public/img/lomba3.JPG" alt="" className="section__img" />
+            <img src="/img/lomba3.JPG" alt="" className="section__img" />
             <div className="section__data">
               <h2 className="section__title_right">Angkat Beban Sedotan</h2>
               <p className="section__text_left text-left">
