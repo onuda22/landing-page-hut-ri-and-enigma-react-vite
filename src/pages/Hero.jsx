@@ -6,11 +6,11 @@ import Meet from '../component/Meet'
 import Footer from '../component/Footer'
 import { Splash } from '../component/Splash'
 
-export default function Hero() {
+export default function Hero({ onButtonClick }) {
   return (
     <div className='w-full'>
-        <Splash />
-      <Header />
+        {/* <Splash /> */}
+      <Header onButtonClick={onButtonClick}/>
       <Main />
       <Meet />
       <CardTeam />
