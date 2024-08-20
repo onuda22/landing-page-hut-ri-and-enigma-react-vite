@@ -1,7 +1,7 @@
 import "./App.css";
-import Hero from "./pages/Hero"; 
-import Pages from "./pages/Pages"; 
-import './custom.css'
+import Hero from "./pages/Hero";
+import Pages from "./pages/Pages";
+import "./custom.css";
 import React, { useState } from "react";
 
 function App() {
@@ -9,16 +9,11 @@ function App() {
 
   const handleButtonClick = () => {
     setShowPages(true);
-  }
+  };
   return (
     <div>
-      {!showPages ? (
-        <Hero onButtonClick={handleButtonClick} />
-      ) : (
-        <Pages />
-      )}
+      {!showPages ? <Hero onButtonClick={handleButtonClick} /> : <Pages />}
     </div>
-
 
     // <div>
     //   <Hero />

@@ -163,7 +163,7 @@ img {
 }
 
 .home__parallax-img1 {
-  background-image: url("/assets/img/6201484166546178451.jpg");
+  background-image: url("/img/6201484166546178451.jpg");
   z-index: var(--z-normal);
 }
 
@@ -173,13 +173,13 @@ img {
 }
 
 .home__parallax-img3 {
-  background-image: url("assets/img/grafik-layer.png");
+  background-image: url("/img/grafik-layer.png");
   background-size: cover;
   z-index: var(--z-fixed);
 }
 
 .home__parallax-img4 {
-  background-image: url("/assets/img/logo79-putih.png");
+  background-image: url("/img/logo79-putih.png");
   background-size: 60%;
   z-index: var(--z-fixed);
 }
@@ -231,7 +231,7 @@ img {
 /*===== SECTION =====*/
 .l-section {
   /* background-color: var(--dark-color); */
-  background-image: url("./assets/event.png");
+  background-image: url("/img/event.png");
   background-size: cover;
   z-index: var(--z-modal);
 }
@@ -301,7 +301,7 @@ img {
 
 .gallery {
   margin: 0 auto;
-  background-image: url("./assets/gallery.png");
+  background-image: url("/img/gallery.png");
   background-size: cover;
   z-index: var(--z-modal);
   padding: 0rem;
@@ -341,7 +341,7 @@ img {
 
 .testimonials {
   background-size: cover;
-  background-image: url("/assets/img/testimoni.png");
+  background-image: url("/img/testimoni.png");
   z-index: var(--z-modal);
 }
 
