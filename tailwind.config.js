@@ -13,6 +13,7 @@ export default {
       'orangeCustom': '#F2541B',
       'bubble-gum': '#ff77e9',
       'blueCustom': '#162D59',
+      
     },
   },
   plugins: [
