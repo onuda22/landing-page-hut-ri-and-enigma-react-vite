@@ -1,6 +1,6 @@
 import React from "react";
-import grafikLayer from "../../assets/grafik-layer.png";
-import logoPutih from "../../assets/logo79-putih.png";
+import grafikLayer from "/img/grafik-layer.png";
+import logoPutih from "/img/logo79-putih.png";
 export default function Title() {
   return (
     <div className="flex flex-col rounded-lg items-center justify-center">
